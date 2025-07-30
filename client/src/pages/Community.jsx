@@ -7,7 +7,7 @@ import toast from 'react-hot-toast'
 
 axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
-const community = () => {
+const Community = () => {
 
   const [creations, setCreations] = useState([])
   const {user} = useUser()
@@ -79,4 +79,4 @@ const community = () => {
   )
 }
 
-export default community
+export default Community
